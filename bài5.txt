@@ -1,0 +1,14 @@
+1) git config : Để set user name và email của bạn trong main configuration file.
+2) git init : Khởi tạo 1 git repository 1 project mới hoặc đã có.
+3) git clone: Copy 1 git repository từ remote source.
+4) git status: Để check trạng thái của những file bạn đã thay đổi trong thư mục làm việc. VD: Tất cả các thay đổi cuối cùng từ lần commit cuối cùng.
+5) git add: Thêm thay đổi đến stage/index trong thư mục làm việc.
+6) git commit: commit nghĩa là một action để Git lưu lại một snapshot của các sự thay đổi trong thư mục làm việc. Và các tập tin, thư mục được thay đổi đã phải nằm trong Staging Area. Mỗi lần commit nó sẽ được lưu lại lịch sử chỉnh sửa của code kèm theo tên và địa chỉ email của người commit. Ngoài ra trong Git bạn cũng có thể khôi phục lại tập tin trong lịch sử commit của nó để chia cho một branch khác, vì vậy bạn sẽ dễ dàng khôi phục lại các thay đổi trước đó.
+7) git push/git pull: Push hoặc Pull các thay đổi đến remote. Nếu bạn đã added và committed các thay đổi và bạn muốn đẩy nó lên hoặc remote của bạn đã update và bạn apply tất cả thay đổi đó trên code của mình.
+8) git branch: liệt kê tất cả các branch (nhánh).
+9) git checkout: Chuyển sang branch khác
+10) git stash: Lưu thay đổi mà bạn không muốn commit ngay lập tức.
+11) git merge: Merge 2 branch lại với nahu.
+12) git reset: Bạn đã đưa một tập tin nào đó vào Staging Area nhưng bây giờ bạn muốn loại bỏ nó ra khỏi đây để không phải bị commit theo.
+13) git remote: Để check remote/source bạn có hoặc add thêm remote
+14) git add: Để đưa một tập tin vào Staging Area
